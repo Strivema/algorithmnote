@@ -1,5 +1,6 @@
 package com.exampale.demo;
 
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -9,6 +10,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class MultiDemo {
     public static void main(String[] args) {
         new CopyOnWriteArrayList();
+        new ConcurrentHashMap<>();
     }
 
 }
