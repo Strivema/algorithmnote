@@ -8,7 +8,7 @@ public class Solution {
     double dp[][][];
 
     /**
-     * @param N NxN 的国际象棋棋盘,最左上角的格子记为 (0, 0)，最右下角的记为 (N-1, N-1)
+     * @param N  NxN 的国际象棋棋盘,最左上角的格子记为 (0, 0)，最右下角的记为 (N-1, N-1)
      * @param K K次移动
      * @param r 初始位 r
      * @param c 初始位c
@@ -41,7 +41,7 @@ public class Solution {
     }
 
     /**
-     * 返回走一步时落在界内的概率
+     * 走一步时落在界内的概率
      *
      * @param N
      * @param r
