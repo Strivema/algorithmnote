@@ -8,6 +8,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @date 2019/8/27 11:29
  */
 public class MultiDemo {
+
     public static void main(String[] args) {
         new CopyOnWriteArrayList();
         new ConcurrentHashMap<>();

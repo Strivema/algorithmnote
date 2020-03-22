@@ -8,11 +8,11 @@ import java.util.Queue;
  * @date 2019/6/22 16:22
  */
 public class BFS {
-    public static void bfs(int num){
+    public static void bfs(int num) {
         Queue<Integer> queue = new LinkedList<>();
 
         queue.add(num);
-        if (!queue.isEmpty()){
+        if (!queue.isEmpty()) {
             Integer peek = queue.peek();
             Integer poll = queue.poll();
             boolean offer = queue.offer(1);
