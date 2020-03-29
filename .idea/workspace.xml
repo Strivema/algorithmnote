@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43f37e8-a454-4a83-a410-39fa11d54e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exampale/leetcode/easy/DefangIPaddr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exampale/leetcode/easy/MinTimeToVisitAllPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,26 +30,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="47" />
           <entry key="lua" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="47" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4784" />
+          <entry key="java" value="4983" />
           <entry key="txt" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4784" />
+          <entry key="JAVA" value="4983" />
           <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
@@ -57,15 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/exampale/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/exampale/sort/BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,17 +136,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/DefangIPaddr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="170">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/MinTimeToVisitAllPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -185,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/exampale/three/LayerOrder.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/three/CreateTree.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/demo/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/demo/CountDownLatchDemo.java" />
@@ -236,6 +235,7 @@
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/DecimalValue.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/DefangIPaddr.java" />
+        <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/MinTimeToVisitAllPoints.java" />
       </list>
     </option>
   </component>
@@ -310,7 +310,7 @@
     <property name="SearchEverywhereHistoryKey" value="Ma&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar!/sun/nio/cs/ext/MacCyrillic.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585493363605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585496156266" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -460,7 +460,7 @@
       <workItem from="1585230557816" duration="2740000" />
       <workItem from="1585315660958" duration="2591000" />
       <workItem from="1585402394575" duration="1585000" />
-      <workItem from="1585492873898" duration="291000" />
+      <workItem from="1585492873898" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561030602166</created>
@@ -623,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585403980205</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=" IP 地址无效化">
+      <created>1585493383786</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585493383786</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124508000" />
+    <option name="totallyTimeSpent" value="125532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -643,7 +650,7 @@
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30040595" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30040595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39783493" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,7 +704,8 @@
     <MESSAGE value="添加注释" />
     <MESSAGE value="宝石与石头" />
     <MESSAGE value="二进制链表转整数" />
-    <option name="LAST_COMMIT_MESSAGE" value="二进制链表转整数" />
+    <MESSAGE value=" IP 地址无效化" />
+    <option name="LAST_COMMIT_MESSAGE" value=" IP 地址无效化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -730,13 +738,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/exampale/luademo/demo.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/exampale/demo/OverrideDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-681">
@@ -1091,14 +1092,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/DefangIPaddr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="170">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/MinTimeToVisitAllPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
