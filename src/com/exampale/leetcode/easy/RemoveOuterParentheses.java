@@ -45,4 +45,22 @@ public class RemoveOuterParentheses {
 
     }
 
+    /**
+     * 方法二：计数法
+     * @param S
+     * @return
+     */
+
+    public String removeOuterParentheses1(String S) {
+        StringBuilder res = new StringBuilder();
+        int count = 0;
+        for (Character c : S.toCharArray()) {
+            if (c == ')') count--;
+            if (count > 0) res.append(c);
+            if (c == '(') count++;
+        }
+        return res.toString();
+
+    }
+
 }
