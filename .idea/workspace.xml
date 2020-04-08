@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43f37e8-a454-4a83-a410-39fa11d54e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/exampale/leetcode/easy/SumZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exampale/leetcode/easy/InvertTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,42 +31,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="61" />
           <entry key="lua" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="61" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7255" />
-          <entry key="txt" value="134" />
+          <entry key="java" value="7362" />
+          <entry key="txt" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7255" />
-          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="JAVA" value="7362" />
+          <entry key="PLAIN_TEXT" value="144" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/RemoveOuterParentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/RangeSumBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,11 +121,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/SumZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/InvertTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/exampale/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/time/DealTime.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/three/BinarySearch.java" />
@@ -228,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/ToLowerCase.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/MergeTrees.java" />
         <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/SumZero.java" />
+        <option value="$PROJECT_DIR$/src/com/exampale/leetcode/easy/InvertTree.java" />
       </list>
     </option>
   </component>
@@ -303,7 +303,7 @@
     <property name="SearchEverywhereHistoryKey" value="Ma&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar!/sun/nio/cs/ext/MacCyrillic.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586359093850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586359383559" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -457,7 +457,7 @@
       <workItem from="1585583190116" duration="542000" />
       <workItem from="1585583900907" duration="641000" />
       <workItem from="1585665626957" duration="4332000" />
-      <workItem from="1585923021927" duration="8074000" />
+      <workItem from="1585923021927" duration="8416000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561030602166</created>
@@ -718,11 +718,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586358424191</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="数组和为零">
+      <created>1586359122241</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1586359122241</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141172000" />
+    <option name="totallyTimeSpent" value="141514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
@@ -771,7 +778,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加lua" />
     <MESSAGE value="LeetCode算法" />
     <MESSAGE value="巩固java基础" />
     <MESSAGE value="leetCode 简单算法" />
@@ -796,7 +802,8 @@
     <MESSAGE value="6 和 9 组成的最大数字" />
     <MESSAGE value="转成小写字母" />
     <MESSAGE value="合并二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并二叉树" />
+    <MESSAGE value="数组和为零" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组和为零" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,13 +836,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/exampale/algorithm/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/exampale/design/MinNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1188,8 +1188,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/SumZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/exampale/leetcode/easy/InvertTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
